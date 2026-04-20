@@ -52,3 +52,5 @@ jobs:
           node-version: 18
       - name: Check Node version
         run: node -v
+      - name: Check NPM version
+        run: npm -v
