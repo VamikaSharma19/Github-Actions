@@ -62,5 +62,5 @@ jobs:
     needs: test
     runs-on: ubuntu-latest
     steps:
-      - name: deploy
-        run: echo "deployed"
+      - name: deploy app
+        run: echo "deploy"
